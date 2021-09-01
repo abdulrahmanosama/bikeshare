@@ -6,6 +6,9 @@
 
 I have collected the data of bikeshare of all months year 2019 for two cities: San Francisco and Washington DC. I have read just the duration, start time, start and end station and the user type columns to decrease the size of the data. Each month was in a separate csv file so I appended them into one dataframe for each city and added a column with the city name then appended both dataframes into one dataframe. I also converted the start time column to datetime type and extracted from it three new columns: hour, day, and month.
 
+I have uploaded the collected and tidy dataset with the whole project on my repository on github and can accessed with the following link
+https://github.com/abdulrahmanosama/bikeshare
+
 ## Summary of Findings
 
 The duration of trips is right skewed with overall average of 960 seconds.
